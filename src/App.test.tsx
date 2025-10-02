@@ -33,9 +33,10 @@ describe('App', () => {
   it('renders without crashing', () => {
     const Wrapper = createWrapper()
     render(<App />, { wrapper: Wrapper })
-    
+
     expect(screen.getByText(/ToDo App/i)).toBeInTheDocument()
-    expect(screen.getByText(/Simple task management with clean architecture/i)).toBeInTheDocument()
+    expect(
+      screen.getByText(/Simple task management with clean architecture/i)
+    ).toBeInTheDocument()
   })
 })
-

@@ -93,7 +93,7 @@ export function TaskForm({ onSubmit, isLoading = false }: TaskFormProps) {
           </div>
 
           <Button type="submit" disabled={isLoading} className="w-full">
-            {isLoading ? 'Adicionando...' : 'Adicionar Tarefa'}
+            {isLoading ? 'Adicionando...' : 'Adicionar tarefa'}
           </Button>
         </form>
       </CardContent>

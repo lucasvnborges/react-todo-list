@@ -15,7 +15,6 @@ interface UIState {
   toggleTaskStatus: (id: string) => void
   setLoading: (loading: boolean) => void
   setError: (error: Error | null) => void
-
 }
 
 export const useUIStore = create<UIState>()(

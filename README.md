@@ -9,30 +9,36 @@ Este projeto é uma aplicação ToDo que implementa os princípios da Clean Arch
 ## 🚀 Tecnologias utilizadas
 
 ### Core
+
 - **React 19** - Biblioteca para construção de interfaces
 - **TypeScript** - Superset do JavaScript com tipagem estática
 - **Vite** - Build tool e dev server ultra-rápido
 
 ### Styling
+
 - **Tailwind CSS 4** - Framework CSS utility-first
 - **Radix UI** - Componentes acessíveis e customizáveis
 - **Lucide React** - Ícones SVG
 
 ### State Management
+
 - **Zustand** - Gerenciamento de estado global
 - **TanStack Query** - Gerenciamento de estado servidor/cache
 - **React Hook Form** - Gerenciamento de formulários
 
 ### Validation & Utils
+
 - **Zod** - Validação de esquemas TypeScript-first
 - **Class Variance Authority** - Utilitário para variantes de classes CSS
 
 ### Testing
+
 - **Vitest** - Framework de testes unitários
 - **Testing Library** - Utilitários para testes de componentes React
 - **jsdom** - Implementação DOM para Node.js
 
 ### Development
+
 - **ESLint** - Linter para JavaScript/TypeScript
 - **Prettier** - Formatador de código
 - **MirageJS** - Mock server para desenvolvimento
@@ -40,57 +46,68 @@ Este projeto é uma aplicação ToDo que implementa os princípios da Clean Arch
 ## 📦 Instalação e Execução
 
 ### Pré-requisitos
+
 ```bash
 node >= 18
 npm >= 9
 ```
 
 ### Instalar dependências
+
 ```bash
 npm install
 ```
 
 ### Executar em modo desenvolvimento
+
 ```bash
 npm run dev
 ```
 
 ### Executar testes
+
 ```bash
 npm run test
 ```
 
 ### Executar testes com interface
+
 ```bash
 npm run test:ui
 ```
 
 ### Executar testes com coverage
+
 ```bash
 npm run test:coverage
 ```
 
 ### Build para produção
+
 ```bash
 npm run build
 ```
 
 ### Preview da build de produção
+
 ```bash
 npm run preview
 ```
 
 ### Linting
+
 ```bash
 npm run lint
 ```
 
 ### Formatação de código
+
 ```bash
 npm run format
 ```
 
 ### Verificar formatação
+
 ```bash
 npm run format:check
 ```
@@ -132,19 +149,23 @@ src/
 ### Camadas da Arquitetura
 
 #### 🎯 Domain (Domínio)
+
 - **Entities**: Definem as estruturas de dados principais (`Task`)
 - **Use Cases**: Contêm a lógica de negócio pura, independente de frameworks
 
 #### 🔌 Infrastructure (Infraestrutura)
+
 - **Repositories**: Implementações concretas para acesso a dados
 - **Server**: Configuração do mock server (MirageJS)
 
 #### 🎨 Presentation (Apresentação)
+
 - **Components**: Componentes React organizados por funcionalidade
 - **Hooks**: Custom hooks que fazem a ponte entre UI e casos de uso
 - **Store**: Gerenciamento de estado da aplicação
 
 #### 🧪 Testing
+
 - Testes unitários para todas as camadas
 - Testes de integração para componentes
 - Coverage configurado para garantir qualidade

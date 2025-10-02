@@ -17,7 +17,6 @@ function App() {
   const deleteTaskMutation = useDeleteTask()
   const toggleStatusMutation = useToggleTaskStatus()
 
-
   const handleCreateTask = async (input: {
     title: string
     description?: string
@@ -62,7 +61,9 @@ function App() {
     <div className="min-h-screen bg-background">
       <div className="max-w-4xl mx-auto px-4 py-8">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-foreground mb-2">📝 ToDo App</h1>
+          <h1 className="text-4xl font-bold text-foreground mb-2">
+            📝 ToDo App
+          </h1>
           <p className="text-muted-foreground text-lg">
             Simple task management with clean architecture
           </p>
