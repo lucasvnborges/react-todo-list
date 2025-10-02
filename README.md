@@ -1,10 +1,6 @@
 # 📝 ToDo App
 
-Uma aplicação de gerenciamento de tarefas construída com React, TypeScript e Clean Architecture, demonstrando boas práticas de desenvolvimento frontend.
-
-## 🎯 Objetivo do projeto
-
-Este projeto é uma aplicação ToDo que implementa os princípios da Clean Architecture, separando claramente as responsabilidades entre camadas de domínio, casos de uso, infraestrutura e apresentação.
+Uma aplicação de gerenciamento de tarefas construída com React, TypeScript e Clean Architecture, demonstrando boas práticas de desenvolvimento frontend separando claramente as responsabilidades entre camadas de domínio, casos de uso, infraestrutura e apresentação.
 
 ## 🚀 Tecnologias utilizadas
 
